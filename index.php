@@ -9,3 +9,11 @@ Means that you can have the codebase all on Github, and then not worry about new
 </br></br>
 
 <?php echo "mong m8" ;?>
+
+</br></br>
+
+Edit: Oh yeah, delete this and replace it with all your stuff.
+
+</br></br>
+
+DerpEdit: Changed it so that SimpleChatting.com and SimpleChat.im both pull from /public_html so we can decide which one is better later on.
