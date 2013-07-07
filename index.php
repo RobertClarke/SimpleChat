@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +6,23 @@
 <link href="assets/style/default.css" rel="stylesheet" media="screen">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="http://cdn.pubnub.com/pubnub-3.5.3.min.js" ></script>
+<script type="text/javascript">
+  var GoSquared = {};
+  GoSquared.acct = "GSN-642357-D";
+  (function(w){
+    function gs(){
+      w._gstc_lt = +new Date;
+      var d = document, g = d.createElement("script");
+      g.type = "text/javascript";
+      g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+      var s = d.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(g, s);
+    }
+    w.addEventListener ?
+      w.addEventListener("load", gs, false) :
+      w.attachEvent("onload", gs);
+  })(window);
+</script>
 <script>
 var $_GET = {};
 
